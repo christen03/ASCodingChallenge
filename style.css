@@ -121,8 +121,8 @@ html{
 .left-image{
     background: url('images/highsierra.png');
     background-size: contain;
-    width: 24%;
-    height: 69%;
+    width: 14%;
+    height: 75%;
     margin: 1.5%;
     align-self: flex-start;
 }
@@ -130,16 +130,16 @@ html{
 .mid-image{
     background: url('images/elcapitan.png');
     background-size: contain;
-    width: 24%;
-    height: 69.5%;
+    width: 14%;
+    height: 75%;
     margin:1.5%;
 }
 
 .right-image{
     background: url('images/mojave.png');
     background-size: contain;
-    width: 24%;
-    height: 69.5%;
+    width: 14%;
+    height: 75%;
     margin: 1.5%;
     align-self: flex-end;
 }
