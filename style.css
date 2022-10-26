@@ -1,0 +1,208 @@
+@font-face {
+    font-family: 'GraphikMedium';
+    src: url('font/GraphikLight.otf')
+    format('opentype');
+
+}
+@font-face{
+    font-family: 'Graphik';
+    src: url('font/GraphikSemibold.otf')
+    format('opentype');
+}
+@font-face{
+    font-family: 'GraphikRegular';
+    src: url('font/GraphikRegularItalic.otf')
+    format('opentype');
+}
+@font-face{
+    font-family: 'Ogg';
+    src : url('font/OggRoman.ttf')
+    format('truetype');
+}
+html{
+ font-size: 62.5%
+}
+
+.button-headflex-container{
+    float: right;
+    width: 50%;
+    display:flex;
+    justify-content: right;
+    align-items: center;
+    background-color: white;
+    height: 70px;
+    
+}
+
+.logo-headflex-container{
+    width: 50%;
+    display:flex;
+    align-items: center;
+    background-color: white;
+    height: 70px;
+}
+
+.buttons-box{
+    width: 100px;
+    margin: 15px;
+    font-family: Graphik;
+    color: #28282B;
+    cursor: pointer;
+}
+
+.logo-headflex-container h1{
+    width: 150px;
+    margin: 15px;
+    font-size: 15px;
+    font-family: Graphik;
+    color: #28282B;
+    cursor: pointer;
+}
+
+
+.image-flexbox{
+    position:relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url('images/yosemite.png');
+}
+
+.text-flexbox{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width:100%;
+    height:50%;
+    align-items: center;
+}
+
+.text-flexbox h1{
+    color: white;
+    font-size: 40px;
+    font-family: Ogg;
+    font-weight: 100;
+}
+
+
+.p1box{
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    height: auto;
+    margin: auto;
+    flex-direction: column;
+}
+
+.p1box h2{
+    font-family: Ogg;
+    font-size: 30px;
+    font-weight: 100;
+    text-align: center;
+}
+
+.p1box p{
+    font-family:GraphikMedium;
+    font-size: 15px;
+    font-weight:100;
+    text-align: center;
+}
+
+.three-image-flexbox{
+    height: 400px;
+    display: flex;
+    width: auto;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+.left-image{
+    background: url('images/highsierra.png');
+    background-size: contain;
+    width: 24%;
+    height: 69%;
+    margin: 1.5%;
+    align-self: flex-start;
+}
+
+.mid-image{
+    background: url('images/elcapitan.png');
+    background-size: contain;
+    width: 24%;
+    height: 69.5%;
+    margin:1.5%;
+}
+
+.right-image{
+    background: url('images/mojave.png');
+    background-size: contain;
+    width: 24%;
+    height: 69.5%;
+    margin: 1.5%;
+    align-self: flex-end;
+}
+
+
+
+
+.bottom-text-grid{
+display: grid;
+grid-template-columns: 45% 45%;
+grid-row-gap: 20px;
+grid-column-gap: 20px;
+justify-content: center;
+}
+
+.textbox h3{
+    font-family: Ogg;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.textbox p{
+    font-family:GraphikMedium;
+    font-size: 10px;
+    font-weight: 100;
+}
+
+.button-footer-container{
+    float: right;
+    width: 50%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2B2C2E;
+    height: 100px;
+}
+
+.copyright-headflex-container{
+    float: left;
+    width: 50%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#2B2C2E;
+    height: 100px;
+}
+
+
+.buttons-box-bottom{
+width: 100px;
+margin: 15px;
+font-family: Graphik;
+font-weight: 400;
+color: white;
+cursor: pointer;
+}
+
+.copyright-headflex-container h1{
+    width: 200px;
+    margin: 15px;
+    font-size: 10px;
+    color: white;
+    font-family: Graphik;
+    cursor: pointer;
+}
+
